@@ -1,0 +1,13 @@
+[Desktop Entry]
+
+Name=Explorer JP
+
+Exec=env LANG="ja_JP.UTF8" wine explorer.exe
+
+Type=Application
+
+StartupNotify=true
+
+Path=/home/user/.wine/drive_c:/windows
+
+StartupWMClass=explorer.exe
