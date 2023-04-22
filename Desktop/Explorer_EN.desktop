@@ -1,0 +1,13 @@
+[Desktop Entry]
+
+Name=Explorer
+
+Exec=env wine explorer.exe
+
+Type=Application
+
+StartupNotify=true
+
+Path=/home/user/.wine/drive_c:/windows
+
+StartupWMClass=explorer.exe
