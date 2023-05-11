@@ -22,7 +22,7 @@ sudo apt install -y wine wine64 wine32 winbind winetricks
 
 # INSTALL WINETRICKS DEPENDENCIES 
 
-winetricks -q -v vcrun2008 vcrun2010 vcrun2012 vcrun2019 vcrun6sp6
+winetricks -q -v dxvx
 
 # ADD LOCAL JP
 
