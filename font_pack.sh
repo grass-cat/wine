@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+#INSTALL UNIZP
+sudo apt install -y unzip
+
 #DOWNLOAD FONT PACK
 wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=FILEID' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1M5tGl5-g0ih8wc-w5-_Hs6kQcJLQwCEQ" -O FONTPACK && rm -rf /tmp/cookies.txt
 
