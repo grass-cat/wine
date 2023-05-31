@@ -18,11 +18,11 @@ sudo wget -O /etc/apt/keyrings/winehq-archive.key https://dl.winehq.org/wine-bui
 
 sudo apt update
 
-sudo apt install -y wine wine64 wine32 winbind winetricks
+sudo apt install -y wine wine64 wine32
 
-# INSTALL WINETRICKS DEPENDENCIES 
+ 
 
-winetricks -q -v dxvx
+
 
 # ADD LOCAL JP
 
