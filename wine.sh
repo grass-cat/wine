@@ -18,8 +18,9 @@ sudo wget -O /etc/apt/keyrings/winehq-archive.key https://dl.winehq.org/wine-bui
 
 sudo apt update
 
-sudo apt install -y wine wine64 wine32
+sudo apt install -y wine wine32 wine64 winbind winetricks
 
+winetricks -q -v dxvk vcrun2019 vcrun6sp6
  
 
 
@@ -60,7 +61,5 @@ cd
 rm Tools.zip
 
 echo -e "\n\n${RED}<-- INSTALL WINE FINISH -->${ENDCOLOR}"
-
-winecfg
 
 sudo apt update
